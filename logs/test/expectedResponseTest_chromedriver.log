@@ -2,7 +2,7 @@ Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-re
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1674061902.466][INFO]: [d50474e8c0a8f6d786b8c3895b77f83f] COMMAND InitSession {
+[1674062822.560][INFO]: [93ecf9c561f07b5e130a0fabdf21e63a] COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "chrome",
@@ -13,7 +13,7 @@ ChromeDriver was started successfully.
       } ]
    }
 }
-[1674061902.468][INFO]: Populating Preferences file: {
+[1674062822.561][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -66,7 +66,7 @@ ChromeDriver was started successfully.
       "enabled": false
    }
 }
-[1674061902.469][INFO]: Populating Local State file: {
+[1674062822.561][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -76,151 +76,151 @@ ChromeDriver was started successfully.
       }
    }
 }
-[1674061902.469][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/4s/vlxkxwn90md_g495k_xrx3qwl7fgpb/T/.com.google.Chrome.yPlksy data:,
-[97026:259:0118/091142.667386:WARNING:chrome_main_delegate.cc(607)] This is Chrome version 109.0.5414.87 (not a warning)
+[1674062822.561][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/4s/vlxkxwn90md_g495k_xrx3qwl7fgpb/T/.com.google.Chrome.KEUO8t data:,
+[99055:259:0118/092702.629178:WARNING:chrome_main_delegate.cc(607)] This is Chrome version 109.0.5414.87 (not a warning)
 
-DevTools listening on ws://127.0.0.1:57756/devtools/browser/0ce6ff46-a3a7-4142-864b-15c577d6246b
-[1674061903.429][DEBUG]: DevTools HTTP Request: http://localhost:57756/json/version
-objc[97035]: Class WebSwapCGLLayer is implemented in both /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/Frameworks/libANGLE-shared.dylib (0x7ffb50163ec8) and /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/109.0.5414.87/Libraries/libGLESv2.dylib (0x10dbdf880). One of the two will be used. Which one is undefined.
-[1674061904.234][DEBUG]: DevTools HTTP Response: {
+DevTools listening on ws://127.0.0.1:58859/devtools/browser/9255bfba-649e-408c-8d61-3ba36d3f4b26
+[1674062823.239][DEBUG]: DevTools HTTP Request: http://localhost:58859/json/version
+objc[99068]: Class WebSwapCGLLayer is implemented in both /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/Frameworks/libANGLE-shared.dylib (0x7ffb50163ec8) and /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/109.0.5414.87/Libraries/libGLESv2.dylib (0x122a4b880). One of the two will be used. Which one is undefined.
+[1674062824.153][DEBUG]: DevTools HTTP Response: {
    "Browser": "Chrome/109.0.5414.87",
    "Protocol-Version": "1.3",
    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
    "V8-Version": "10.9.194.9",
    "WebKit-Version": "537.36 (@2dc18eb511c56e012081b4abc9e38c81c885f7d4)",
-   "webSocketDebuggerUrl": "ws://localhost:57756/devtools/browser/0ce6ff46-a3a7-4142-864b-15c577d6246b"
+   "webSocketDebuggerUrl": "ws://localhost:58859/devtools/browser/9255bfba-649e-408c-8d61-3ba36d3f4b26"
 }
 
-[1674061904.234][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
-[1674061904.234][DEBUG]: DevTools HTTP Request: http://localhost:57756/json/list
-[1674061904.266][DEBUG]: DevTools HTTP Response: [ {
+[1674062824.153][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
+[1674062824.153][DEBUG]: DevTools HTTP Request: http://localhost:58859/json/list
+[1674062824.160][DEBUG]: DevTools HTTP Response: [ {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:57756/devtools/page/088C7C32C083EE08672B1D0CEF337BD8",
-   "id": "088C7C32C083EE08672B1D0CEF337BD8",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:58859/devtools/page/7DBFAEDF6BFBAE96B5B9DAD71240C7EE",
+   "id": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE",
    "title": "",
    "type": "page",
    "url": "data:,",
-   "webSocketDebuggerUrl": "ws://localhost:57756/devtools/page/088C7C32C083EE08672B1D0CEF337BD8"
+   "webSocketDebuggerUrl": "ws://localhost:58859/devtools/page/7DBFAEDF6BFBAE96B5B9DAD71240C7EE"
 } ]
 
-[1674061904.268][INFO]: resolved localhost to ["127.0.0.1","::1"]
-[1674061904.276][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
+[1674062824.161][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1674062824.178][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
 }
-[1674061904.282][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
+[1674062824.184][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
    "targetInfos": [ {
       "attached": false,
-      "browserContextId": "EDDA9BC810C864786C6936EA9489F529",
+      "browserContextId": "711BC9DE9C06489E852DA0B8680145A6",
       "canAccessOpener": false,
-      "targetId": "088C7C32C083EE08672B1D0CEF337BD8",
+      "targetId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE",
       "title": "",
       "type": "page",
       "url": "data:,"
    } ]
 }
-[1674061904.283][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
+[1674062824.184][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
    "flatten": true,
-   "targetId": "088C7C32C083EE08672B1D0CEF337BD8"
+   "targetId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE"
 }
-[1674061904.294][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
-   "sessionId": "82954D239D78281EF5B86E34E30C4419",
+[1674062824.186][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
+   "sessionId": "1E2C59A2ECBA6ED9246A985A0EBC18CD",
    "targetInfo": {
       "attached": true,
-      "browserContextId": "EDDA9BC810C864786C6936EA9489F529",
+      "browserContextId": "711BC9DE9C06489E852DA0B8680145A6",
       "canAccessOpener": false,
-      "targetId": "088C7C32C083EE08672B1D0CEF337BD8",
+      "targetId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE",
       "title": "",
       "type": "page",
       "url": "data:,"
    },
    "waitingForDebugger": false
 }
-[1674061904.294][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
-   "sessionId": "82954D239D78281EF5B86E34E30C4419"
+[1674062824.186][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
+   "sessionId": "1E2C59A2ECBA6ED9246A985A0EBC18CD"
 }
-[1674061904.294][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=3) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.186][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=3) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
 }
-[1674061904.294][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=4) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.186][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=4) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
 }
-[1674061904.294][DEBUG]: DevTools WebSocket Command: Log.enable (id=5) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.186][DEBUG]: DevTools WebSocket Command: Log.enable (id=5) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.294][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=6) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.186][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=6) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "autoAttach": true,
    "flatten": true,
    "waitForDebuggerOnStart": false
 }
-[1674061904.294][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.186][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.294][DEBUG]: DevTools WebSocket Command: Page.enable (id=8) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.186][DEBUG]: DevTools WebSocket Command: Page.enable (id=8) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.335][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=3) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.193][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=3) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "identifier": "1"
 }
-[1674061904.336][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=4) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.193][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=4) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "result": {
       "type": "undefined"
    }
 }
-[1674061904.336][DEBUG]: DevTools WebSocket Response: Log.enable (id=5) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.193][DEBUG]: DevTools WebSocket Response: Log.enable (id=5) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.336][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=6) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.193][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=6) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.336][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.193][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.336][DEBUG]: DevTools WebSocket Response: Page.enable (id=8) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.193][DEBUG]: DevTools WebSocket Response: Page.enable (id=8) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.336][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=9) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.193][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=9) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.344][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "timestamp": 26028.663842
+[1674062824.196][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "timestamp": 26948.515573
 }
-[1674061904.344][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.196][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "awaitPromise": false,
    "expression": "document.readyState",
    "returnByValue": true
 }
-[1674061904.344][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frameId": "088C7C32C083EE08672B1D0CEF337BD8"
+[1674062824.196][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "frameId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE"
 }
-[1674061904.344][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "timestamp": 26028.66414
+[1674062824.196][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "timestamp": 26948.515786
 }
-[1674061904.347][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.196][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "context": {
       "auxData": {
-         "frameId": "088C7C32C083EE08672B1D0CEF337BD8",
+         "frameId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE",
          "isDefault": true,
          "type": "default"
       },
       "id": 1,
       "name": "",
       "origin": "://",
-      "uniqueId": "3756996281078459220.5577887927535040323"
+      "uniqueId": "-8758319480201260342.7981328467020035031"
    }
 }
-[1674061904.347][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=9) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.196][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=9) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.347][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.196][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "result": {
       "type": "string",
       "value": "complete"
    }
 }
-[1674061904.347][DEBUG]: DevTools WebSocket Command: Page.enable (id=11) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.196][DEBUG]: DevTools WebSocket Command: Page.enable (id=11) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.348][DEBUG]: DevTools WebSocket Response: Page.enable (id=11) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.196][DEBUG]: DevTools WebSocket Response: Page.enable (id=11) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.348][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=12) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.196][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=12) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.348][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=12) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.198][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=12) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.349][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=13) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.198][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=13) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "awaitPromise": true,
    "expression": "(function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebDriver status codes....",
    "returnByValue": true
 }
-[1674061904.353][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=13) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.200][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=13) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "result": {
       "type": "object",
       "value": {
@@ -229,17 +229,17 @@ objc[97035]: Class WebSwapCGLLayer is implemented in both /System/Library/Framew
       }
    }
 }
-[1674061904.353][INFO]: [d50474e8c0a8f6d786b8c3895b77f83f] RESPONSE InitSession {
+[1674062824.200][INFO]: [93ecf9c561f07b5e130a0fabdf21e63a] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
       "browserVersion": "109.0.5414.87",
       "chrome": {
          "chromedriverVersion": "108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})",
-         "userDataDir": "/var/folders/4s/vlxkxwn90md_g495k_xrx3qwl7fgpb/T/.com.google.Chrome.yPlksy"
+         "userDataDir": "/var/folders/4s/vlxkxwn90md_g495k_xrx3qwl7fgpb/T/.com.google.Chrome.KEUO8t"
       },
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:57756"
+         "debuggerAddress": "localhost:58859"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -258,3532 +258,295 @@ objc[97035]: Class WebSwapCGLLayer is implemented in both /System/Library/Framew
       "webauthn:extension:largeBlob": true,
       "webauthn:virtualAuthenticators": true
    },
-   "sessionId": "d50474e8c0a8f6d786b8c3895b77f83f"
+   "sessionId": "93ecf9c561f07b5e130a0fabdf21e63a"
 }
-[1674061904.364][INFO]: [d50474e8c0a8f6d786b8c3895b77f83f] COMMAND Navigate {
-   "url": "https://www.zappos.com/cart"
+[1674062824.212][INFO]: [93ecf9c561f07b5e130a0fabdf21e63a] COMMAND Navigate {
+   "url": "https://www.google.com/"
 }
-[1674061904.364][INFO]: Waiting for pending navigations...
-[1674061904.364][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.212][INFO]: Waiting for pending navigations...
+[1674062824.212][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "expression": "1"
 }
-[1674061904.365][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.213][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1674061904.365][INFO]: Done waiting for pending navigations. Status: ok
-[1674061904.365][DEBUG]: DevTools WebSocket Command: Page.navigate (id=15) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "url": "https://www.zappos.com/cart"
+[1674062824.213][INFO]: Done waiting for pending navigations. Status: ok
+[1674062824.213][DEBUG]: DevTools WebSocket Command: Page.navigate (id=15) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "url": "https://www.google.com/"
 }
-[1674061904.839][DEBUG]: DevTools WebSocket Response: Page.navigate (id=15) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frameId": "088C7C32C083EE08672B1D0CEF337BD8",
-   "loaderId": "E8F6E63933D71DBF67B446C0A8BE3C1E"
+[1674062824.510][DEBUG]: DevTools WebSocket Response: Page.navigate (id=15) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "frameId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE",
+   "loaderId": "439929D6E74F51C3D79181084C5AB1C3"
 }
-[1674061904.839][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.510][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "expression": "document.URL"
 }
-[1674061904.844][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.511][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.845][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frameId": "088C7C32C083EE08672B1D0CEF337BD8"
+[1674062824.512][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "frameId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE"
 }
-[1674061904.847][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.530][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.847][DEBUG]: DevTools WebSocket Event: Log.entryAdded (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "entry": {
-      "level": "warning",
-      "source": "security",
-      "text": "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.",
-      "timestamp": 1.674061904847023e+12
-   }
-}
-[97026:259:0118/091144.847513:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
-[1674061904.873][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.530][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "frame": {
       "adFrameStatus": {
          "adFrameType": "none"
       },
       "crossOriginIsolatedContextType": "NotIsolated",
-      "domainAndRegistry": "zappos.com",
+      "domainAndRegistry": "google.com",
       "gatedAPIFeatures": [  ],
-      "id": "088C7C32C083EE08672B1D0CEF337BD8",
-      "loaderId": "E8F6E63933D71DBF67B446C0A8BE3C1E",
+      "id": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE",
+      "loaderId": "439929D6E74F51C3D79181084C5AB1C3",
       "mimeType": "text/html",
       "secureContextType": "Secure",
-      "securityOrigin": "https://www.zappos.com",
-      "url": "https://www.zappos.com/cart"
+      "securityOrigin": "https://www.google.com",
+      "url": "https://www.google.com/"
    },
    "type": "Navigation"
 }
-[1674061904.873][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.530][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "context": {
       "auxData": {
-         "frameId": "088C7C32C083EE08672B1D0CEF337BD8",
+         "frameId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE",
          "isDefault": true,
          "type": "default"
       },
       "id": 1,
       "name": "",
-      "origin": "https://www.zappos.com",
-      "uniqueId": "8036503381192481606.-7952221377141464070"
+      "origin": "https://www.google.com",
+      "uniqueId": "-7628656147116079892.-3213314148995347414"
    }
 }
-[1674061904.873][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.533][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "result": {
       "type": "string",
-      "value": "https://www.zappos.com/cart"
+      "value": "https://www.google.com/"
    }
 }
-[1674061904.873][INFO]: Waiting for pending navigations...
-[1674061904.873][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.533][INFO]: Waiting for pending navigations...
+[1674062824.533][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "expression": "1"
 }
-[1674061904.873][DEBUG]: DevTools WebSocket Event: Page.frameResized (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.535][DEBUG]: DevTools WebSocket Event: Page.frameResized (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
 }
-[1674061904.875][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.535][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1674061905.094][DEBUG]: DevTools WebSocket Event: Page.frameResized (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.728][DEBUG]: DevTools WebSocket Event: Page.navigatedWithinDocument (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "frameId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE",
+   "url": "https://www.google.com/"
 }
-[1674061905.094][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=18) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.728][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "timestamp": 26949.048969
+}
+[1674062824.728][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=18) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "expression": "1"
 }
-[1674061905.123][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=18) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.729][DEBUG]: DevTools WebSocket Event: Page.frameResized (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+}
+[1674062824.756][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=18) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[97026:259:0118/091145.437631:INFO:CONSOLE(1)] "Marty Client: Track Amethyst Event: Titanite SUCCESS {"success":true,"attempts":1,"events":[{"websiteEvent":{"cartPageView":{"distinctItemsInCart":0,"unavailableItemsInCart":0,"isCartModal":false,"itemsInCart":0,"grandTotal":0},"abTests":[{"name":"pgsc","phase":1,"testGroup":0}],"amazonSessionId":"137-3398315-9535438","timezone":"America/Los_Angeles","websiteDomain":"ZAPPOS_DESKTOP","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","sessionId":"00000185c5dd7b28000007521250319b","viewId":"92b75437263f4af3ba93069b88521b32","timestamp":1674061905430,"deviceDimensions":{"viewportWidth":1200,"viewportHeight":947,"screenWidth":1920,"screenHeight":1200},"urlHost":"www.zappos.com","urlPath":"/cart","urlQuery":"","urlFragment":"","referrer":""}}],"failedEvents":[]}", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061905.439][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "Track Amethyst Event: Titanite SUCCESS"
-   }, {
-      "type": "string",
-      "value": "{\"success\":true,\"attempts\":1,\"events\":[{\"websiteEvent\":{\"cartPageView\":{\"distinctItemsInCart\":0,\"unavailableItemsInCart\":0,\"isCartModal\":false,\"itemsInCart\":0,\"grandTotal\":0},\"abTests\":[{\"name\":\"pg..."
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
+[1674062824.857][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "frameId": "9CE4D1E82CC55A9AD361B4ADE274F0A6",
+   "parentFrameId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE",
+   "stack": {
       "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
+         "columnNumber": 489,
+         "functionName": "Xz",
+         "lineNumber": 439,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
       }, {
-         "columnNumber": 1051742,
+         "columnNumber": 277,
+         "functionName": "bA",
+         "lineNumber": 442,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      }, {
+         "columnNumber": 337,
+         "functionName": "vA",
+         "lineNumber": 451,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      }, {
+         "columnNumber": 426,
+         "functionName": "Uz",
+         "lineNumber": 448,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      }, {
+         "columnNumber": 127,
+         "functionName": "notify",
+         "lineNumber": 461,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      }, {
+         "columnNumber": 142,
+         "functionName": "Tz",
+         "lineNumber": 438,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      }, {
+         "columnNumber": 110,
+         "functionName": "GA",
+         "lineNumber": 456,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      }, {
+         "columnNumber": 234,
+         "functionName": "HA",
+         "lineNumber": 456,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      }, {
+         "columnNumber": 139,
+         "functionName": "VA",
+         "lineNumber": 472,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      }, {
+         "columnNumber": 681,
+         "functionName": "WA",
+         "lineNumber": 470,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      }, {
+         "columnNumber": 142,
+         "functionName": "YA",
+         "lineNumber": 471,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      }, {
+         "columnNumber": 460,
+         "functionName": "load",
+         "lineNumber": 487,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      }, {
+         "columnNumber": 31,
          "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
+         "lineNumber": 492,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
       }, {
-         "columnNumber": 111193,
-         "functionName": "y",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871753,
+         "columnNumber": 213,
          "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
+         "lineNumber": 492,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
       }, {
-         "columnNumber": 868580,
-         "functionName": "S",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871841,
-         "functionName": "_",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 872797,
-         "functionName": "addEvent",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111604,
-         "functionName": "O",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112655,
-         "functionName": "P",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 880706,
-         "functionName": "g",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 868338,
-         "functionName": "nl",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 736338,
-         "functionName": "F",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 736063,
-         "functionName": "E",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 737998,
-         "functionName": "z",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 737385,
-         "functionName": "q",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 736398,
-         "functionName": "F",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 737175,
-         "functionName": "u",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 740171,
-         "functionName": "K",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 737661,
-         "functionName": "q",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, "..." ]
-   },
-   "timestamp": 1.674061905431745e+12,
-   "type": "debug"
+         "columnNumber": 2,
+         "functionName": "",
+         "lineNumber": 507,
+         "scriptId": "15",
+         "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.XoX8D-gT9fM.2019.O/rt=j/m=qabr,q_d,qcwid,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTu5iFyPHKjIg4bk8v..."
+      } ]
+   }
 }
-[1674061905.439][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.857][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "expression": "1"
 }
-[1674061905.463][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "timestamp": 26029.785524
+[1674062824.857][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "frameId": "9CE4D1E82CC55A9AD361B4ADE274F0A6"
 }
-[1674061905.463][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062824.862][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[97026:259:0118/091145.534501:INFO:CONSOLE(1)] "Marty Client: Track Amethyst Event: Titanite SUCCESS {"success":true,"attempts":1,"events":[{"websiteEvent":{"abTestEnrollment":{"name":"user","phase":4,"testGroup":1},"abTests":[{"name":"pgsc","phase":1,"testGroup":0},{"name":"user","phase":4,"testGroup":1}],"amazonSessionId":"137-3398315-9535438","timezone":"America/Los_Angeles","websiteDomain":"ZAPPOS_DESKTOP","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","sessionId":"00000185c5dd7b28000007521250319b","viewId":"92b75437263f4af3ba93069b88521b32","timestamp":1674061905532,"deviceDimensions":{"viewportWidth":1200,"viewportHeight":947,"screenWidth":1920,"screenHeight":1200},"urlHost":"www.zappos.com","urlPath":"/cart","urlQuery":"","urlFragment":"","referrer":""}}],"failedEvents":[]}", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061905.535][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "Track Amethyst Event: Titanite SUCCESS"
-   }, {
-      "type": "string",
-      "value": "{\"success\":true,\"attempts\":1,\"events\":[{\"websiteEvent\":{\"abTestEnrollment\":{\"name\":\"user\",\"phase\":4,\"testGroup\":1},\"abTests\":[{\"name\":\"pgsc\",\"phase\":1,\"testGroup\":0},{\"name\":\"user\",\"phase\":4,\"testG..."
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111193,
-         "functionName": "y",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871753,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 868580,
-         "functionName": "S",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871841,
-         "functionName": "_",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 872797,
-         "functionName": "addEvent",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111604,
-         "functionName": "O",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112430,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112547,
-         "functionName": "S",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 746,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 757172,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 680503,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 761715,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 785570,
-         "functionName": "componentDidMount",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 602651,
-         "functionName": "Ou",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 599200,
-         "functionName": "Tu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, "..." ]
-   },
-   "timestamp": 1.674061905533509e+12,
-   "type": "debug"
-}
-[1674061905.535][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "expression": "1"
-}
-[97026:259:0118/091145.539275:INFO:CONSOLE(1)] "Marty Client: [pixelServer] CONFIG:  [object Object]", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061905.541][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "[pixelServer]"
-   }, {
-      "type": "string",
-      "value": "CONFIG: "
-   }, {
-      "className": "Object",
-      "description": "Object",
-      "objectId": "1417099355110946113.1.1",
-      "preview": {
-         "description": "Object",
-         "overflow": false,
-         "properties": [ {
-            "name": "host",
-            "type": "string",
-            "value": "d169bbxks24g2u.cloudfront.net"
-         }, {
-            "name": "pathname",
-            "type": "string",
-            "value": "zappos.html"
-         } ],
-         "type": "object"
+[1674062825.102][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none",
+         "explanations": [  ]
       },
-      "type": "object"
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 820904,
-         "functionName": "Pa",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 822678,
-         "functionName": "componentDidMount",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 602651,
-         "functionName": "Ou",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 599200,
-         "functionName": "Tu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 589562,
-         "functionName": "fu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 586131,
-         "functionName": "au",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 613853,
-         "functionName": "Yu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 615086,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 589711,
-         "functionName": "du",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 615071,
-         "functionName": "el",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 616909,
-         "functionName": "hydrate",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 729179,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 723097,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 711236,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 704835,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, "..." ]
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "google.com",
+      "gatedAPIFeatures": [  ],
+      "id": "9CE4D1E82CC55A9AD361B4ADE274F0A6",
+      "loaderId": "5D305AF196BF45C8C03064A66F5486C8",
+      "mimeType": "text/html",
+      "name": "callout",
+      "parentId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://ogs.google.com",
+      "url": "https://ogs.google.com/widget/callout?prid=19027682&pgid=19027681&puid=1421396ff301105b&cce=1&dc=1&origin=https%3A%2F%2Fwww.google.com&cn=callout&pid=1&spid=538&hl=en"
    },
-   "timestamp": 1.674061905539053e+12,
-   "type": "debug"
+   "type": "Navigation"
 }
-[97026:259:0118/091145.558767:INFO:CONSOLE(1)] "Marty Client: Track Amethyst Event: Titanite SUCCESS {"success":true,"attempts":1,"events":[{"websiteEvent":{"bannerImpression":{"slot":"banner-1","pageType":"CART_PAGE","messageText":"Hassle-Free Returns at Whole Foods: Say goodbye to shipping boxes and return labels! Learn About New Return Options","hasCta":true},"abTests":[{"name":"pgsc","phase":1,"testGroup":0},{"name":"user","phase":4,"testGroup":1}],"amazonSessionId":"137-3398315-9535438","timezone":"America/Los_Angeles","websiteDomain":"ZAPPOS_DESKTOP","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","sessionId":"00000185c5dd7b28000007521250319b","viewId":"92b75437263f4af3ba93069b88521b32","timestamp":1674061905557,"deviceDimensions":{"viewportWidth":1200,"viewportHeight":947,"screenWidth":1920,"screenHeight":1200},"urlHost":"www.zappos.com","urlPath":"/cart","urlQuery":"","urlFragment":"","referrer":""}}],"failedEvents":[]}", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061905.559][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "Track Amethyst Event: Titanite SUCCESS"
-   }, {
-      "type": "string",
-      "value": "{\"success\":true,\"attempts\":1,\"events\":[{\"websiteEvent\":{\"bannerImpression\":{\"slot\":\"banner-1\",\"pageType\":\"CART_PAGE\",\"messageText\":\"Hassle-Free Returns at Whole Foods: Say goodbye to shipping boxes..."
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111193,
-         "functionName": "y",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871753,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 868580,
-         "functionName": "S",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871841,
-         "functionName": "_",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 872797,
-         "functionName": "addEvent",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111604,
-         "functionName": "O",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112430,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112547,
-         "functionName": "S",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 750903,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 579841,
-         "functionName": "vs",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604385,
-         "functionName": "Cu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604148,
-         "functionName": "ku",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 589286,
-         "functionName": "fu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547801,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, "..." ]
-   },
-   "timestamp": 1.674061905558461e+12,
-   "type": "debug"
+[1674062825.102][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "context": {
+      "auxData": {
+         "frameId": "9CE4D1E82CC55A9AD361B4ADE274F0A6",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "https://ogs.google.com",
+      "uniqueId": "-7174407255154164928.4486487817419189799"
+   }
 }
-[97026:259:0118/091145.559986:INFO:CONSOLE(1)] "Marty Client: Track Amethyst Event: Titanite SUCCESS {"success":true,"attempts":1,"events":[{"websiteEvent":{"bannerImpression":{"slot":"banner-2","pageType":"CART_PAGE","messageText":"Winter Sale: New styles added! Find clothing, footwear, and bags at prices you’ll love. Shop The Sale","hasCta":true},"abTests":[{"name":"pgsc","phase":1,"testGroup":0},{"name":"user","phase":4,"testGroup":1}],"amazonSessionId":"137-3398315-9535438","timezone":"America/Los_Angeles","websiteDomain":"ZAPPOS_DESKTOP","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","sessionId":"00000185c5dd7b28000007521250319b","viewId":"92b75437263f4af3ba93069b88521b32","timestamp":1674061905559,"deviceDimensions":{"viewportWidth":1200,"viewportHeight":947,"screenWidth":1920,"screenHeight":1200},"urlHost":"www.zappos.com","urlPath":"/cart","urlQuery":"","urlFragment":"","referrer":""}}],"failedEvents":[]}", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061905.560][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "Track Amethyst Event: Titanite SUCCESS"
-   }, {
-      "type": "string",
-      "value": "{\"success\":true,\"attempts\":1,\"events\":[{\"websiteEvent\":{\"bannerImpression\":{\"slot\":\"banner-2\",\"pageType\":\"CART_PAGE\",\"messageText\":\"Winter Sale: New styles added! Find clothing, footwear, and bags ..."
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111193,
-         "functionName": "y",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871753,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 868580,
-         "functionName": "S",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871841,
-         "functionName": "_",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 872797,
-         "functionName": "addEvent",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111604,
-         "functionName": "O",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112430,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112547,
-         "functionName": "S",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 750903,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 579841,
-         "functionName": "vs",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604385,
-         "functionName": "Cu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604148,
-         "functionName": "ku",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 589286,
-         "functionName": "fu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547801,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, "..." ]
-   },
-   "timestamp": 1.674061905559808e+12,
-   "type": "debug"
+[1674062825.102][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "expression": "1"
 }
-[97026:259:0118/091145.561216:INFO:CONSOLE(1)] "Marty Client: Track Amethyst Event: Titanite SUCCESS {"success":true,"attempts":1,"events":[{"websiteEvent":{"bannerImpression":{"slot":"banner-3","pageType":"CART_PAGE","messageText":"Start Where You Are: Footwear & apparel for running, working out, & walking! Shop Our Running Capsule","hasCta":true},"abTests":[{"name":"pgsc","phase":1,"testGroup":0},{"name":"user","phase":4,"testGroup":1}],"amazonSessionId":"137-3398315-9535438","timezone":"America/Los_Angeles","websiteDomain":"ZAPPOS_DESKTOP","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","sessionId":"00000185c5dd7b28000007521250319b","viewId":"92b75437263f4af3ba93069b88521b32","timestamp":1674061905560,"deviceDimensions":{"viewportWidth":1200,"viewportHeight":947,"screenWidth":1920,"screenHeight":1200},"urlHost":"www.zappos.com","urlPath":"/cart","urlQuery":"","urlFragment":"","referrer":""}}],"failedEvents":[]}", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061905.562][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "Track Amethyst Event: Titanite SUCCESS"
-   }, {
-      "type": "string",
-      "value": "{\"success\":true,\"attempts\":1,\"events\":[{\"websiteEvent\":{\"bannerImpression\":{\"slot\":\"banner-3\",\"pageType\":\"CART_PAGE\",\"messageText\":\"Start Where You Are: Footwear & apparel for running, working out,..."
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111193,
-         "functionName": "y",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871753,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 868580,
-         "functionName": "S",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871841,
-         "functionName": "_",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 872797,
-         "functionName": "addEvent",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111604,
-         "functionName": "O",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112430,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112547,
-         "functionName": "S",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 750903,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 579841,
-         "functionName": "vs",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604385,
-         "functionName": "Cu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604148,
-         "functionName": "ku",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 589286,
-         "functionName": "fu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547801,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, "..." ]
-   },
-   "timestamp": 1.6740619055611218e+12,
-   "type": "debug"
-}
-[97026:259:0118/091145.562378:INFO:CONSOLE(1)] "Marty Client: Track Amethyst Event: Titanite SUCCESS {"success":true,"attempts":1,"events":[{"websiteEvent":{"bannerImpression":{"slot":"banner-4","pageType":"CART_PAGE","messageText":"FREE 365 Day Returns and Exchanges! ","hasCta":false},"abTests":[{"name":"pgsc","phase":1,"testGroup":0},{"name":"user","phase":4,"testGroup":1}],"amazonSessionId":"137-3398315-9535438","timezone":"America/Los_Angeles","websiteDomain":"ZAPPOS_DESKTOP","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","sessionId":"00000185c5dd7b28000007521250319b","viewId":"92b75437263f4af3ba93069b88521b32","timestamp":1674061905561,"deviceDimensions":{"viewportWidth":1200,"viewportHeight":947,"screenWidth":1920,"screenHeight":1200},"urlHost":"www.zappos.com","urlPath":"/cart","urlQuery":"","urlFragment":"","referrer":""}}],"failedEvents":[]}", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061905.563][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "Track Amethyst Event: Titanite SUCCESS"
-   }, {
-      "type": "string",
-      "value": "{\"success\":true,\"attempts\":1,\"events\":[{\"websiteEvent\":{\"bannerImpression\":{\"slot\":\"banner-4\",\"pageType\":\"CART_PAGE\",\"messageText\":\"FREE 365 Day Returns and Exchanges! \",\"hasCta\":false},\"abTests\":..."
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111193,
-         "functionName": "y",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871753,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 868580,
-         "functionName": "S",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871841,
-         "functionName": "_",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 872797,
-         "functionName": "addEvent",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111604,
-         "functionName": "O",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112430,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112547,
-         "functionName": "S",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 750903,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 579841,
-         "functionName": "vs",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604385,
-         "functionName": "Cu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604148,
-         "functionName": "ku",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 589286,
-         "functionName": "fu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547801,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, "..." ]
-   },
-   "timestamp": 1.674061905562279e+12,
-   "type": "debug"
-}
-[97026:259:0118/091145.566998:INFO:CONSOLE(1)] "Marty Client: Track Amethyst Event: Titanite SUCCESS {"success":true,"attempts":1,"events":[{"websiteEvent":{"pixel_event":{"page_type":"cart","page_id":"","page_lang":"en","page_title":"","cart_payload":{}},"abTests":[{"name":"pgsc","phase":1,"testGroup":0},{"name":"user","phase":4,"testGroup":1}],"amazonSessionId":"137-3398315-9535438","timezone":"America/Los_Angeles","websiteDomain":"ZAPPOS_DESKTOP","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","sessionId":"00000185c5dd7b28000007521250319b","viewId":"92b75437263f4af3ba93069b88521b32","timestamp":1674061905564,"deviceDimensions":{"viewportWidth":1200,"viewportHeight":947,"screenWidth":1920,"screenHeight":1200},"urlHost":"www.zappos.com","urlPath":"/cart","urlQuery":"","urlFragment":"","referrer":""}}],"failedEvents":[]}", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061905.567][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "Track Amethyst Event: Titanite SUCCESS"
-   }, {
-      "type": "string",
-      "value": "{\"success\":true,\"attempts\":1,\"events\":[{\"websiteEvent\":{\"pixel_event\":{\"page_type\":\"cart\",\"page_id\":\"\",\"page_lang\":\"en\",\"page_title\":\"\",\"cart_payload\":{}},\"abTests\":[{\"name\":\"pgsc\",\"phase\":1,\"testG..."
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111193,
-         "functionName": "y",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871753,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 868580,
-         "functionName": "S",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871841,
-         "functionName": "_",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 872797,
-         "functionName": "addEvent",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111604,
-         "functionName": "O",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112655,
-         "functionName": "P",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 86820,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 86856,
-         "functionName": "S",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 85839,
-         "functionName": "C",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 7999,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "13",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.Cart.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 579841,
-         "functionName": "vs",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604385,
-         "functionName": "Cu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604148,
-         "functionName": "ku",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 589286,
-         "functionName": "fu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, "..." ]
-   },
-   "timestamp": 1.674061905566762e+12,
-   "type": "debug"
-}
-[97026:259:0118/091145.569027:INFO:CONSOLE(1)] "Marty Client: Track Amethyst Event: Titanite SUCCESS {"success":true,"attempts":1,"events":[{"websiteEvent":{"cartLocalStorage":{"itemQuantityInLocalStorage":0,"oosItemQuantityInLocalStorage":0,"itemQuantityInCart":0,"isSessionIdMismatched":false,"isXMainMismatched":false,"hasXMain":false},"abTests":[{"name":"pgsc","phase":1,"testGroup":0},{"name":"user","phase":4,"testGroup":1}],"amazonSessionId":"137-3398315-9535438","timezone":"America/Los_Angeles","websiteDomain":"ZAPPOS_DESKTOP","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","sessionId":"00000185c5dd7b28000007521250319b","viewId":"92b75437263f4af3ba93069b88521b32","timestamp":1674061905568,"deviceDimensions":{"viewportWidth":1200,"viewportHeight":947,"screenWidth":1920,"screenHeight":1200},"urlHost":"www.zappos.com","urlPath":"/cart","urlQuery":"","urlFragment":"","referrer":""}}],"failedEvents":[]}", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061905.569][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "Track Amethyst Event: Titanite SUCCESS"
-   }, {
-      "type": "string",
-      "value": "{\"success\":true,\"attempts\":1,\"events\":[{\"websiteEvent\":{\"cartLocalStorage\":{\"itemQuantityInLocalStorage\":0,\"oosItemQuantityInLocalStorage\":0,\"itemQuantityInCart\":0,\"isSessionIdMismatched\":false,\"is..."
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111193,
-         "functionName": "y",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871753,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 868580,
-         "functionName": "S",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871841,
-         "functionName": "_",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 872797,
-         "functionName": "addEvent",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111604,
-         "functionName": "O",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112655,
-         "functionName": "P",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 17134,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 757172,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 680503,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 761715,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 8094,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "13",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.Cart.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 579841,
-         "functionName": "vs",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604385,
-         "functionName": "Cu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 604148,
-         "functionName": "ku",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, "..." ]
-   },
-   "timestamp": 1.6740619055688428e+12,
-   "type": "debug"
-}
-[1674061905.629][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062825.104][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[97026:259:0118/091145.660225:INFO:CONSOLE(1)] "Marty Client: Track Amethyst Event: Titanite SUCCESS {"success":true,"attempts":1,"events":[{"websiteEvent":{"abTestEnrollment":{"name":"sacc","phase":6,"testGroup":0},"abTests":[{"name":"pgsc","phase":1,"testGroup":0},{"name":"user","phase":4,"testGroup":1},{"name":"sacc","phase":6,"testGroup":0}],"amazonSessionId":"137-3398315-9535438","timezone":"America/Los_Angeles","websiteDomain":"ZAPPOS_DESKTOP","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36","sessionId":"00000185c5dd7b28000007521250319b","viewId":"92b75437263f4af3ba93069b88521b32","timestamp":1674061905658,"deviceDimensions":{"viewportWidth":1200,"viewportHeight":947,"screenWidth":1920,"screenHeight":1200},"urlHost":"www.zappos.com","urlPath":"/cart","urlQuery":"","urlFragment":"","referrer":""}}],"failedEvents":[]}", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061905.661][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "Track Amethyst Event: Titanite SUCCESS"
-   }, {
-      "type": "string",
-      "value": "{\"success\":true,\"attempts\":1,\"events\":[{\"websiteEvent\":{\"abTestEnrollment\":{\"name\":\"sacc\",\"phase\":6,\"testGroup\":0},\"abTests\":[{\"name\":\"pgsc\",\"phase\":1,\"testGroup\":0},{\"name\":\"user\",\"phase\":4,\"testG..."
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111193,
-         "functionName": "y",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871753,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 868580,
-         "functionName": "S",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 871841,
-         "functionName": "_",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 872797,
-         "functionName": "addEvent",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 111604,
-         "functionName": "O",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112430,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 112547,
-         "functionName": "S",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 746,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 757172,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 680503,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 729613,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      } ]
-   },
-   "timestamp": 1.674061905659073e+12,
-   "type": "debug"
+[1674062825.306][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "frameId": "9CE4D1E82CC55A9AD361B4ADE274F0A6"
 }
-[1674061905.661][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=21) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062825.306][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=21) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "expression": "1"
 }
-[1674061905.663][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frameId": "81D7D73DCD654B93EB08465D4AA923DB",
-   "parentFrameId": "088C7C32C083EE08672B1D0CEF337BD8",
-   "stack": {
-      "callFrames": [ {
-         "columnNumber": 581447,
-         "functionName": "Es",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 601094,
-         "functionName": "Ou",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 599200,
-         "functionName": "Tu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 589562,
-         "functionName": "fu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547801,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547746,
-         "functionName": "Xo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547681,
-         "functionName": "Ko",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 586152,
-         "functionName": "au",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 552462,
-         "functionName": "enqueueSetState",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 727045,
-         "functionName": "w.setState",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 820520,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      } ]
-   }
+[1674062825.311][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "timestamp": 26949.631052
 }
-[1674061905.664][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frameId": "81D7D73DCD654B93EB08465D4AA923DB"
-}
-[1674061905.665][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frameId": "58533230988D220D0A367E58FA940287",
-   "parentFrameId": "088C7C32C083EE08672B1D0CEF337BD8",
-   "stack": {
-      "callFrames": [ {
-         "columnNumber": 581447,
-         "functionName": "Es",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 601094,
-         "functionName": "Ou",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 599200,
-         "functionName": "Tu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 589562,
-         "functionName": "fu",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547801,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 837482,
-         "functionName": "t.unstable_runWithPriority",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547510,
-         "functionName": "Zo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547746,
-         "functionName": "Xo",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 547681,
-         "functionName": "Ko",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 586152,
-         "functionName": "au",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 552462,
-         "functionName": "enqueueSetState",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 727045,
-         "functionName": "w.setState",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 823281,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      } ]
-   }
-}
-[1674061905.665][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frameId": "58533230988D220D0A367E58FA940287"
-}
-[1674061905.674][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "timestamp": 26029.997998
-}
-[1674061905.674][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062825.311][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "awaitPromise": false,
    "expression": "document.readyState",
    "returnByValue": true
 }
-[1674061905.682][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=21) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062825.311][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
+   "frameId": "7DBFAEDF6BFBAE96B5B9DAD71240C7EE"
+}
+[1674062825.315][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=21) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1674061905.684][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
+[1674062825.316][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) (session_id=1E2C59A2ECBA6ED9246A985A0EBC18CD) 7DBFAEDF6BFBAE96B5B9DAD71240C7EE {
    "result": {
       "type": "string",
       "value": "complete"
    }
 }
-[1674061905.684][INFO]: Done waiting for pending navigations. Status: ok
-[1674061905.684][INFO]: [d50474e8c0a8f6d786b8c3895b77f83f] RESPONSE Navigate
-[1674061905.692][INFO]: [d50474e8c0a8f6d786b8c3895b77f83f] COMMAND GetUrl {
-}
-[1674061905.692][INFO]: Waiting for pending navigations...
-[1674061905.692][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=23) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "expression": "1"
-}
-[1674061905.693][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=23) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "result": {
-      "description": "1",
-      "type": "number",
-      "value": 1
-   }
-}
-[1674061905.693][INFO]: Done waiting for pending navigations. Status: ok
-[1674061905.693][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "awaitPromise": true,
-   "expression": "(function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebDriver status codes....",
-   "returnByValue": true
-}
-[1674061905.694][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "result": {
-      "type": "object",
-      "value": {
-         "status": 0,
-         "value": "https://www.zappos.com/cart"
-      }
-   }
-}
-[1674061905.694][INFO]: Waiting for pending navigations...
-[1674061905.694][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "expression": "1"
-}
-[1674061905.695][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "result": {
-      "description": "1",
-      "type": "number",
-      "value": 1
-   }
-}
-[1674061905.695][INFO]: Done waiting for pending navigations. Status: ok
-[1674061905.695][INFO]: [d50474e8c0a8f6d786b8c3895b77f83f] RESPONSE GetUrl "https://www.zappos.com/cart"
-[1674061905.700][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "sessionId": "126A21CD0C7DF7DE9B5A05983503C04E",
-   "targetInfo": {
-      "attached": true,
-      "browserContextId": "EDDA9BC810C864786C6936EA9489F529",
-      "canAccessOpener": false,
-      "targetId": "58533230988D220D0A367E58FA940287",
-      "title": "",
-      "type": "iframe",
-      "url": ""
-   },
-   "waitingForDebugger": false
-}
-[1674061905.700][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=26) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
-}
-[1674061905.700][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=27) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
-}
-[1674061905.700][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=28) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "autoAttach": true,
-   "flatten": true,
-   "waitForDebuggerOnStart": false
-}
-[1674061905.700][DEBUG]: DevTools WebSocket Command: Page.enable (id=29) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-}
-[1674061905.700][DEBUG]: DevTools WebSocket Command: Page.enable (id=30) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-}
-[1674061905.701][DEBUG]: DevTools WebSocket Response: Page.enable (id=30) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-}
-[1674061905.704][DEBUG]: DevTools WebSocket Event: Target.targetInfoChanged (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "targetInfo": {
-      "attached": true,
-      "browserContextId": "EDDA9BC810C864786C6936EA9489F529",
-      "canAccessOpener": false,
-      "targetId": "58533230988D220D0A367E58FA940287",
-      "title": "https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart",
-      "type": "iframe",
-      "url": "https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart"
-   }
-}
-[1674061905.704][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frameId": "58533230988D220D0A367E58FA940287"
-}
-[1674061905.705][DEBUG]: DevTools WebSocket Event: Page.frameDetached (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frameId": "58533230988D220D0A367E58FA940287",
-   "reason": "swap"
-}
-[1674061905.710][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=26) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "identifier": "1"
-}
-[1674061905.710][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=27) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "result": {
-      "type": "undefined"
-   }
-}
-[1674061905.710][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=28) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-}
-[1674061905.710][DEBUG]: DevTools WebSocket Response: Page.enable (id=29) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-}
-[1674061905.710][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=31) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-}
-[1674061905.721][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "context": {
-      "auxData": {
-         "frameId": "58533230988D220D0A367E58FA940287",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 1,
-      "name": "",
-      "origin": "https://d169bbxks24g2u.cloudfront.net",
-      "uniqueId": "6880311595673256114.-58296452185583184"
-   }
-}
-[1674061905.721][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=31) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-}
-[1674061905.721][DEBUG]: DevTools WebSocket Command: Page.enable (id=32) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-}
-[1674061905.723][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "timestamp": 26030.046987
-}
-[1674061905.723][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "58533230988D220D0A367E58FA940287"
-}
-[1674061905.723][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "timestamp": 26030.047301
-}
-[1674061905.723][DEBUG]: DevTools WebSocket Response: Page.enable (id=32) (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-}
-[97026:259:0118/091145.723598:INFO:CONSOLE(1)] "Marty Client: [pixelServer] Unable to parse holmes cookie, skipping adding holmes data to payload", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[97026:259:0118/091145.723920:INFO:CONSOLE(1)] "Marty Client: [pixelServer] SUCCESS: iframe is loaded (https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart)", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[97026:259:0118/091145.723972:INFO:CONSOLE(1)] "Marty Client: [pixelServer] INFO: cart [object Object]", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061905.724][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "[pixelServer]"
-   }, {
-      "type": "string",
-      "value": "Unable to parse holmes cookie, skipping adding holmes data to payload"
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 820904,
-         "functionName": "Pa",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 821731,
-         "functionName": "Na.postData",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 823883,
-         "functionName": "onLoad",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 502896,
-         "functionName": "m",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503039,
-         "functionName": "x",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503185,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503271,
-         "functionName": "O",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503720,
-         "functionName": "A",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503532,
-         "functionName": "k",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503880,
-         "functionName": "P",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 530861,
-         "functionName": "Tn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 616545,
-         "functionName": "le",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 531476,
-         "functionName": "Pn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 532433,
-         "functionName": "jn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 531721,
-         "functionName": "Nn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      } ]
-   },
-   "timestamp": 1.6740619057231208e+12,
-   "type": "debug"
-}
-[1674061905.724][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "[pixelServer]"
-   }, {
-      "type": "string",
-      "value": "SUCCESS: iframe is loaded (https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart)"
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 820904,
-         "functionName": "Pa",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 822424,
-         "functionName": "Na.postData",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 823883,
-         "functionName": "onLoad",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 502896,
-         "functionName": "m",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503039,
-         "functionName": "x",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503185,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503271,
-         "functionName": "O",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503720,
-         "functionName": "A",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503532,
-         "functionName": "k",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503880,
-         "functionName": "P",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 530861,
-         "functionName": "Tn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 616545,
-         "functionName": "le",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 531476,
-         "functionName": "Pn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 532433,
-         "functionName": "jn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 531721,
-         "functionName": "Nn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      } ]
-   },
-   "timestamp": 1.674061905723781e+12,
-   "type": "debug"
-}
-[1674061905.724][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "[pixelServer]"
-   }, {
-      "type": "string",
-      "value": "INFO:"
-   }, {
-      "type": "string",
-      "value": "cart"
-   }, {
-      "className": "Object",
-      "description": "Object",
-      "objectId": "1417099355110946113.1.2",
-      "preview": {
-         "description": "Object",
-         "overflow": true,
-         "properties": [ {
-            "name": "pageload",
-            "type": "object",
-            "value": "Object"
-         }, {
-            "name": "session",
-            "type": "object",
-            "value": "Object"
-         }, {
-            "name": "killed",
-            "subtype": "array",
-            "type": "object",
-            "value": "Array(0)"
-         }, {
-            "name": "customerCountryCode",
-            "subtype": "null",
-            "type": "object",
-            "value": "null"
-         }, {
-            "name": "pageId",
-            "type": "string",
-            "value": ""
-         } ],
-         "type": "object"
-      },
-      "type": "object"
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 820904,
-         "functionName": "Pa",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 822487,
-         "functionName": "Na.postData",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 823883,
-         "functionName": "onLoad",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 502896,
-         "functionName": "m",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503039,
-         "functionName": "x",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503185,
-         "functionName": "",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503271,
-         "functionName": "O",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503720,
-         "functionName": "A",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503532,
-         "functionName": "k",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 503880,
-         "functionName": "P",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 530861,
-         "functionName": "Tn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 616545,
-         "functionName": "le",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 531476,
-         "functionName": "Pn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 532433,
-         "functionName": "jn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 531721,
-         "functionName": "Nn",
-         "lineNumber": 1,
-         "scriptId": "18",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.vendor.5680a871a14a03f05c3c.js"
-      } ]
-   },
-   "timestamp": 1.674061905723851e+12,
-   "type": "debug"
-}
-[97026:259:0118/091145.733551:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
-[1674061905.734][DEBUG]: DevTools WebSocket Event: Log.entryAdded (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "entry": {
-      "level": "warning",
-      "source": "security",
-      "text": "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.",
-      "timestamp": 1.674061905733385e+12
-   }
-}
-[1674061905.736][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frame": {
-      "adFrameStatus": {
-         "adFrameType": "none",
-         "explanations": [  ]
-      },
-      "crossOriginIsolatedContextType": "NotIsolated",
-      "domainAndRegistry": "zappos.com",
-      "gatedAPIFeatures": [  ],
-      "id": "81D7D73DCD654B93EB08465D4AA923DB",
-      "loaderId": "E064876AA7AF7FA7BC2378058C071F2F",
-      "mimeType": "text/html",
-      "name": "msft-uet",
-      "parentId": "088C7C32C083EE08672B1D0CEF337BD8",
-      "secureContextType": "Secure",
-      "securityOrigin": "https://www.zappos.com",
-      "url": "https://www.zappos.com/marty-assets/microsoft-uet-tag-zappos.html"
-   },
-   "type": "Navigation"
-}
-[1674061905.736][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "context": {
-      "auxData": {
-         "frameId": "81D7D73DCD654B93EB08465D4AA923DB",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 2,
-      "name": "",
-      "origin": "https://www.zappos.com",
-      "uniqueId": "4497407094221812096.-7242574307194054006"
-   }
-}
-[1674061906.006][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frameId": "81D7D73DCD654B93EB08465D4AA923DB"
-}
-[97026:259:0118/091146.006665:INFO:CONSOLE(1)] "Uncaught The prodid value must be within 1 to 50 characters.", source: https://commerce.bing.com/cst/cst.js (1)
-[1674061906.007][DEBUG]: DevTools WebSocket Event: Runtime.exceptionThrown (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "exceptionDetails": {
-      "columnNumber": 19389,
-      "exception": {
-         "type": "string",
-         "value": "The prodid value must be within 1 to 50 characters."
-      },
-      "exceptionId": 1,
-      "executionContextId": 2,
-      "lineNumber": 0,
-      "scriptId": "55",
-      "stackTrace": {
-         "callFrames": [ {
-            "columnNumber": 19389,
-            "functionName": "UET.throwError",
-            "lineNumber": 0,
-            "scriptId": "55",
-            "url": "https://commerce.bing.com/cst/cst.js"
-         }, {
-            "columnNumber": 20556,
-            "functionName": "UET.validateProdId",
-            "lineNumber": 0,
-            "scriptId": "55",
-            "url": "https://commerce.bing.com/cst/cst.js"
-         }, {
-            "columnNumber": 24056,
-            "functionName": "UET.validateDataObjectNew",
-            "lineNumber": 0,
-            "scriptId": "55",
-            "url": "https://commerce.bing.com/cst/cst.js"
-         }, {
-            "columnNumber": 27660,
-            "functionName": "UET.evt",
-            "lineNumber": 0,
-            "scriptId": "55",
-            "url": "https://commerce.bing.com/cst/cst.js"
-         }, {
-            "columnNumber": 11830,
-            "functionName": "UET._push",
-            "lineNumber": 0,
-            "scriptId": "55",
-            "url": "https://commerce.bing.com/cst/cst.js"
-         }, {
-            "columnNumber": 11566,
-            "functionName": "UET.push",
-            "lineNumber": 0,
-            "scriptId": "55",
-            "url": "https://commerce.bing.com/cst/cst.js"
-         }, {
-            "columnNumber": 22,
-            "functionName": "",
-            "lineNumber": 17,
-            "scriptId": "54",
-            "url": "https://www.zappos.com/marty-assets/microsoft-uet-tag-zappos.html"
-         } ]
-      },
-      "text": "Uncaught",
-      "url": "https://commerce.bing.com/cst/cst.js"
-   },
-   "timestamp": 1.6740619060065562e+12
-}
-[97026:259:0118/091146.062387:INFO:CONSOLE(1)] "Marty Client: API Call Completed context = getCartCount time = 526 ms statusCode = 200 url = "https://amazon.zappos.com/mobileapi/v1/getCartItemsCount"", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061906.063][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "API Call Completed context = getCartCount time = 526 ms statusCode = 200 url = \"https://amazon.zappos.com/mobileapi/v1/getCartItemsCount\""
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1021828,
-         "functionName": "debug",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1053963,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1054251,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      } ]
-   },
-   "timestamp": 1.674061906062263e+12,
-   "type": "debug"
-}
-[1674061906.070][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "frameId": "088C7C32C083EE08672B1D0CEF337BD8"
-}
-[97026:259:0118/091146.142586:INFO:CONSOLE(1)] "Marty Client: API Call Completed context = getLandingPageInfo time = 575 ms statusCode = 200 url = "https://amazon.zappos.com/mobileapi/v1/getPage?siteId=1&subsiteId=17&pageName=zapposcart"", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061906.143][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "API Call Completed context = getLandingPageInfo time = 575 ms statusCode = 200 url = \"https://amazon.zappos.com/mobileapi/v1/getPage?siteId=1&subsiteId=17&pageName=zapposcart\""
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1021828,
-         "functionName": "debug",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1053963,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1054251,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      } ]
-   },
-   "timestamp": 1.674061906142463e+12,
-   "type": "debug"
-}
-[97026:259:0118/091146.394373:INFO:CONSOLE(2)] "Signal: error: {"type":"dbe","message":"TypeError: Cannot read properties of undefined (reading 'productId')","dbe.name":"cart.addtocart","pageId":161998}", source: https://s.btstatic.com/tag.js (2)
-[1674061906.395][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "args": [ {
-      "type": "string",
-      "value": "Signal: error: {\"type\":\"dbe\",\"message\":\"TypeError: Cannot read properties of undefined (reading 'productId')\",\"dbe.name\":\"cart.addtocart\",\"pageId\":161998}"
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 293,
-         "functionName": "bt_log",
-         "lineNumber": 1,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 251,
-         "functionName": "push",
-         "lineNumber": 25,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 404,
-         "functionName": "dbe",
-         "lineNumber": 47,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 292,
-         "functionName": "b",
-         "lineNumber": 40,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 426,
-         "functionName": "r",
-         "lineNumber": 2,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 352,
-         "functionName": "emit",
-         "lineNumber": 40,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 73,
-         "functionName": "",
-         "lineNumber": 41,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 75,
-         "functionName": "bt_eval",
-         "lineNumber": 0,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 55,
-         "functionName": "dbe",
-         "lineNumber": 41,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 437,
-         "functionName": "dbe",
-         "lineNumber": 53,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 2,
-         "functionName": "",
-         "lineNumber": 8,
-         "scriptId": "14",
-         "url": "https://s.thebrighttag.com/tag?site=GSAJd7e&referrer=https%3A%2F%2Fd169bbxks24g2u.cloudfront.net%2Fzappos.html%3FpageType%3Dcart&docReferrer=https%3A%2F%2Fwww.zappos.com%2F&H=1jvnlzt"
-      }, {
-         "columnNumber": 47,
-         "functionName": "",
-         "lineNumber": 8,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 166,
-         "functionName": "h",
-         "lineNumber": 5,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 243,
-         "functionName": "f",
-         "lineNumber": 5,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      }, {
-         "columnNumber": 30,
-         "functionName": "u.onload.u.onreadystatechange",
-         "lineNumber": 7,
-         "scriptId": "13",
-         "url": "https://s.btstatic.com/tag.js"
-      } ]
-   },
-   "timestamp": 1.674061906393893e+12,
-   "type": "log"
-}
-[1674061906.578][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "67B181269E356A68D5CC1F017A5823FB",
-   "parentFrameId": "58533230988D220D0A367E58FA940287",
-   "stack": {
-      "callFrames": [ {
-         "columnNumber": 14896,
-         "functionName": "zr",
-         "lineNumber": 0,
-         "scriptId": "62",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 23946,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "62",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 24206,
-         "functionName": "Jn",
-         "lineNumber": 0,
-         "scriptId": "62",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 27789,
-         "functionName": "de",
-         "lineNumber": 0,
-         "scriptId": "62",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 30782,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "62",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 28883,
-         "functionName": "me",
-         "lineNumber": 0,
-         "scriptId": "62",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 30170,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "62",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 30410,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "62",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 30917,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "62",
-         "url": "https://sc-static.net/scevent.min.js"
-      } ]
-   }
-}
-[1674061906.578][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "67B181269E356A68D5CC1F017A5823FB"
-}
-[97026:259:0118/091146.601034:INFO:CONSOLE(1)] "[pixelServer]ERROR: e.origin does not match containerDomain", source: https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart (1)
-[97026:259:0118/091146.601083:INFO:CONSOLE(1)] "[pixelServer]ERROR: e.origin does not match containerDomain", source: https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart (1)
-[1674061906.601][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "args": [ {
-      "type": "string",
-      "value": "[pixelServer]ERROR: e.origin does not match containerDomain"
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 14758,
-         "functionName": "postMessageCallback",
-         "lineNumber": 0,
-         "scriptId": "12",
-         "url": "https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart"
-      } ]
-   },
-   "timestamp": 1.6740619065954949e+12,
-   "type": "error"
-}
-[1674061906.601][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "args": [ {
-      "type": "string",
-      "value": "[pixelServer]ERROR: e.origin does not match containerDomain"
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 14758,
-         "functionName": "postMessageCallback",
-         "lineNumber": 0,
-         "scriptId": "12",
-         "url": "https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart"
-      } ]
-   },
-   "timestamp": 1.674061906595679e+12,
-   "type": "error"
-}
-[1674061906.767][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "sessionId": "BB70277E5DCD0BBBF4BD6E2D90CE71FA",
-   "targetInfo": {
-      "attached": true,
-      "browserContextId": "EDDA9BC810C864786C6936EA9489F529",
-      "canAccessOpener": false,
-      "targetId": "67B181269E356A68D5CC1F017A5823FB",
-      "title": "",
-      "type": "iframe",
-      "url": ""
-   },
-   "waitingForDebugger": false
-}
-[1674061906.767][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=33) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
-}
-[1674061906.767][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=34) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
-}
-[1674061906.767][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=35) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "autoAttach": true,
-   "flatten": true,
-   "waitForDebuggerOnStart": false
-}
-[1674061906.768][DEBUG]: DevTools WebSocket Command: Page.enable (id=36) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-}
-[1674061906.768][DEBUG]: DevTools WebSocket Command: Page.enable (id=37) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-}
-[1674061906.769][DEBUG]: DevTools WebSocket Response: Page.enable (id=37) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-}
-[1674061906.771][DEBUG]: DevTools WebSocket Event: Target.targetInfoChanged (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "targetInfo": {
-      "attached": true,
-      "browserContextId": "EDDA9BC810C864786C6936EA9489F529",
-      "canAccessOpener": false,
-      "targetId": "67B181269E356A68D5CC1F017A5823FB",
-      "title": "https://tr.snapchat.com/cm/i?pid=2968385f-e935-40e8-8cea-88ea0aa5a67d&u_scsid=b28a5095-1c58-45ae-b7d3-c7b54af80c54&u_sclid=ab68dcde-1505-412e-82ef-db07b2e6a637",
-      "type": "iframe",
-      "url": "https://tr.snapchat.com/cm/i?pid=2968385f-e935-40e8-8cea-88ea0aa5a67d&u_scsid=b28a5095-1c58-45ae-b7d3-c7b54af80c54&u_sclid=ab68dcde-1505-412e-82ef-db07b2e6a637"
-   }
-}
-[1674061906.771][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "67B181269E356A68D5CC1F017A5823FB"
-}
-[1674061906.771][DEBUG]: DevTools WebSocket Event: Page.frameDetached (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "67B181269E356A68D5CC1F017A5823FB",
-   "reason": "swap"
-}
-[1674061906.774][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=33) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "identifier": "1"
-}
-[1674061906.774][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=34) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "result": {
-      "type": "undefined"
-   }
-}
-[1674061906.774][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=35) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-}
-[1674061906.774][DEBUG]: DevTools WebSocket Response: Page.enable (id=36) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-}
-[1674061906.774][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=38) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-}
-[1674061906.776][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "context": {
-      "auxData": {
-         "frameId": "67B181269E356A68D5CC1F017A5823FB",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 1,
-      "name": "",
-      "origin": "https://tr.snapchat.com",
-      "uniqueId": "2129512815948767373.6294169994970725302"
-   }
-}
-[1674061906.776][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=38) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-}
-[1674061906.776][DEBUG]: DevTools WebSocket Command: Page.enable (id=39) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-}
-[1674061906.777][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "timestamp": 26031.101853
-}
-[1674061906.777][DEBUG]: DevTools WebSocket Response: Page.enable (id=39) (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-}
-[1674061906.824][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "frameId": "A40C385789CDCCA18C23474E47D26021",
-   "parentFrameId": "67B181269E356A68D5CC1F017A5823FB",
-   "stack": {
-      "callFrames": [ {
-         "columnNumber": 14896,
-         "functionName": "zr",
-         "lineNumber": 0,
-         "scriptId": "7",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 15850,
-         "functionName": "Yr",
-         "lineNumber": 0,
-         "scriptId": "7",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 28149,
-         "functionName": "de",
-         "lineNumber": 0,
-         "scriptId": "7",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 30782,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "7",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 28883,
-         "functionName": "me",
-         "lineNumber": 0,
-         "scriptId": "7",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 30213,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "7",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 30410,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "7",
-         "url": "https://sc-static.net/scevent.min.js"
-      }, {
-         "columnNumber": 30917,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "7",
-         "url": "https://sc-static.net/scevent.min.js"
-      } ]
-   }
-}
-[1674061906.824][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "frameId": "A40C385789CDCCA18C23474E47D26021"
-}
-[1674061907.074][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "CC17D08E59D523AFCAAFD97FC21E98DC",
-   "parentFrameId": "58533230988D220D0A367E58FA940287",
-   "stack": {
-      "callFrames": [ {
-         "columnNumber": 34989,
-         "functionName": "k",
-         "lineNumber": 0,
-         "scriptId": "71",
-         "url": "https://static.criteo.net/js/ld/ld.js"
-      }, {
-         "columnNumber": 34292,
-         "functionName": "S",
-         "lineNumber": 0,
-         "scriptId": "71",
-         "url": "https://static.criteo.net/js/ld/ld.js"
-      }, {
-         "columnNumber": 32842,
-         "functionName": "i",
-         "lineNumber": 0,
-         "scriptId": "71",
-         "url": "https://static.criteo.net/js/ld/ld.js"
-      }, {
-         "columnNumber": 42028,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "71",
-         "url": "https://static.criteo.net/js/ld/ld.js"
-      }, {
-         "columnNumber": 32288,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "71",
-         "url": "https://static.criteo.net/js/ld/ld.js"
-      }, {
-         "columnNumber": 9549,
-         "functionName": "m.retrieveConsent",
-         "lineNumber": 0,
-         "scriptId": "71",
-         "url": "https://static.criteo.net/js/ld/ld.js"
-      }, {
-         "columnNumber": 32225,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "71",
-         "url": "https://static.criteo.net/js/ld/ld.js"
-      }, {
-         "columnNumber": 42014,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "71",
-         "url": "https://static.criteo.net/js/ld/ld.js"
-      }, {
-         "columnNumber": 10017,
-         "functionName": "v.catchAndStoreException",
-         "lineNumber": 0,
-         "scriptId": "71",
-         "url": "https://static.criteo.net/js/ld/ld.js"
-      }, {
-         "columnNumber": 10296,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "71",
-         "url": "https://static.criteo.net/js/ld/ld.js"
-      } ]
-   }
-}
-[1674061907.074][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "CC17D08E59D523AFCAAFD97FC21E98DC"
-}
-[1674061907.173][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "frame": {
-      "adFrameStatus": {
-         "adFrameType": "none",
-         "explanations": [  ]
-      },
-      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
-      "domainAndRegistry": "snapchat.com",
-      "gatedAPIFeatures": [  ],
-      "id": "A40C385789CDCCA18C23474E47D26021",
-      "loaderId": "1B36522B2F000D7DBE230A1B94577DA0",
-      "mimeType": "text/html",
-      "name": "snap4201857",
-      "parentId": "67B181269E356A68D5CC1F017A5823FB",
-      "secureContextType": "Secure",
-      "securityOrigin": "https://tr.snapchat.com",
-      "url": "https://tr.snapchat.com/cm/p?rand=1672169820700&pnid=140&pcid=369a5f86-ca27-4dd5-b82a-c6e72a44bde1"
-   },
-   "type": "Navigation"
-}
-[1674061907.173][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "context": {
-      "auxData": {
-         "frameId": "A40C385789CDCCA18C23474E47D26021",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 2,
-      "name": "",
-      "origin": "https://tr.snapchat.com",
-      "uniqueId": "-3005806510437915640.5534244494136653877"
-   }
-}
-[1674061907.173][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "frameId": "A40C385789CDCCA18C23474E47D26021"
-}
-[1674061907.173][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "timestamp": 26031.498295
-}
-[1674061907.173][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "frameId": "67B181269E356A68D5CC1F017A5823FB"
-}
-[97026:259:0118/091147.173662:INFO:CONSOLE(1)] "[pixelServer]ERROR: e.origin does not match containerDomain", source: https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart (1)
-[1674061907.174][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "args": [ {
-      "type": "string",
-      "value": "[pixelServer]ERROR: e.origin does not match containerDomain"
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 14758,
-         "functionName": "postMessageCallback",
-         "lineNumber": 0,
-         "scriptId": "12",
-         "url": "https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart"
-      } ]
-   },
-   "timestamp": 1.6740619071735671e+12,
-   "type": "error"
-}
-[1674061907.175][DEBUG]: DevTools WebSocket Event: Page.frameDetached (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "frameId": "A40C385789CDCCA18C23474E47D26021",
-   "reason": "remove"
-}
-[1674061907.175][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed (session_id=BB70277E5DCD0BBBF4BD6E2D90CE71FA) BB70277E5DCD0BBBF4BD6E2D90CE71FA {
-   "executionContextId": 2
-}
-[1674061907.176][DEBUG]: DevTools WebSocket Event: Page.frameDetached (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "67B181269E356A68D5CC1F017A5823FB",
-   "reason": "remove"
-}
-[1674061907.176][DEBUG]: DevTools WebSocket Event: Target.detachedFromTarget (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "sessionId": "BB70277E5DCD0BBBF4BD6E2D90CE71FA",
-   "targetId": "67B181269E356A68D5CC1F017A5823FB"
-}
-[1674061907.293][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "sessionId": "3C3AA63EB56614FE03DCBD84BA3BF54E",
-   "targetInfo": {
-      "attached": true,
-      "browserContextId": "EDDA9BC810C864786C6936EA9489F529",
-      "canAccessOpener": false,
-      "targetId": "CC17D08E59D523AFCAAFD97FC21E98DC",
-      "title": "",
-      "type": "iframe",
-      "url": ""
-   },
-   "waitingForDebugger": false
-}
-[1674061907.293][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=40) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
-}
-[1674061907.293][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=41) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
-}
-[1674061907.293][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=42) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-   "autoAttach": true,
-   "flatten": true,
-   "waitForDebuggerOnStart": false
-}
-[1674061907.293][DEBUG]: DevTools WebSocket Command: Page.enable (id=43) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-}
-[1674061907.293][DEBUG]: DevTools WebSocket Command: Page.enable (id=44) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-}
-[1674061907.294][DEBUG]: DevTools WebSocket Response: Page.enable (id=44) (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-}
-[1674061907.296][DEBUG]: DevTools WebSocket Event: Target.targetInfoChanged (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "targetInfo": {
-      "attached": true,
-      "browserContextId": "EDDA9BC810C864786C6936EA9489F529",
-      "canAccessOpener": false,
-      "targetId": "CC17D08E59D523AFCAAFD97FC21E98DC",
-      "title": "https://gum.criteo.com/syncframe?topUrl=www.zappos.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:false,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22on...",
-      "type": "iframe",
-      "url": "https://gum.criteo.com/syncframe?topUrl=www.zappos.com&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:false,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22on..."
-   }
-}
-[1674061907.296][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "CC17D08E59D523AFCAAFD97FC21E98DC"
-}
-[1674061907.296][DEBUG]: DevTools WebSocket Event: Page.frameDetached (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "CC17D08E59D523AFCAAFD97FC21E98DC",
-   "reason": "swap"
-}
-[1674061907.299][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=40) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-   "identifier": "1"
-}
-[1674061907.299][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=41) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-   "result": {
-      "type": "undefined"
-   }
-}
-[1674061907.299][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=42) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-}
-[1674061907.299][DEBUG]: DevTools WebSocket Response: Page.enable (id=43) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-}
-[1674061907.299][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=45) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-}
-[1674061907.304][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-   "context": {
-      "auxData": {
-         "frameId": "CC17D08E59D523AFCAAFD97FC21E98DC",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 1,
-      "name": "",
-      "origin": "https://gum.criteo.com",
-      "uniqueId": "-5989406597087523316.3238322246825941445"
-   }
-}
-[1674061907.305][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=45) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-}
-[1674061907.305][DEBUG]: DevTools WebSocket Command: Page.enable (id=46) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-}
-[1674061907.307][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-   "timestamp": 26031.630242
-}
-[1674061907.307][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-   "frameId": "CC17D08E59D523AFCAAFD97FC21E98DC"
-}
-[1674061907.307][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-   "timestamp": 26031.630455
-}
-[1674061907.307][DEBUG]: DevTools WebSocket Response: Page.enable (id=46) (session_id=3C3AA63EB56614FE03DCBD84BA3BF54E) 3C3AA63EB56614FE03DCBD84BA3BF54E {
-}
-[97026:259:0118/091147.451044:INFO:CONSOLE(1)] "[pixelServer]ERROR: e.origin does not match containerDomain", source: https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart (1)
-[1674061907.451][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "args": [ {
-      "type": "string",
-      "value": "[pixelServer]ERROR: e.origin does not match containerDomain"
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 14758,
-         "functionName": "postMessageCallback",
-         "lineNumber": 0,
-         "scriptId": "12",
-         "url": "https://d169bbxks24g2u.cloudfront.net/zappos.html?pageType=cart"
-      } ]
-   },
-   "timestamp": 1.6740619074509229e+12,
-   "type": "error"
-}
-[1674061907.739][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "62BEEA0660D4A5FBB4113C8F12FB5855",
-   "parentFrameId": "58533230988D220D0A367E58FA940287",
-   "stack": {
-      "callFrames": [ {
-         "columnNumber": 44442,
-         "functionName": "LDkE.a.createIFrame",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 44120,
-         "functionName": "LDkE.a.tryCreateIFrames",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 45157,
-         "functionName": "a",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 46622,
-         "functionName": "O",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 50276,
-         "functionName": "LDkE",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 134513,
-         "functionName": "oe+7",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 5089,
-         "functionName": "0",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 2096,
-         "functionName": "",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 2105,
-         "functionName": "",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      } ]
-   }
-}
-[1674061907.740][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "62BEEA0660D4A5FBB4113C8F12FB5855"
-}
-[1674061907.744][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frame": {
-      "adFrameStatus": {
-         "adFrameType": "none",
-         "explanations": [  ]
-      },
-      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
-      "domainAndRegistry": "",
-      "gatedAPIFeatures": [  ],
-      "id": "62BEEA0660D4A5FBB4113C8F12FB5855",
-      "loaderId": "E34D4DEB8518BEA5D60C8189430F6C54",
-      "mimeType": "text/html",
-      "name": "__JSBridgeIframe_1.0__",
-      "parentId": "58533230988D220D0A367E58FA940287",
-      "secureContextType": "Secure",
-      "securityOrigin": "://",
-      "url": "about:blank"
-   },
-   "type": "Navigation"
-}
-[1674061907.744][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "context": {
-      "auxData": {
-         "frameId": "62BEEA0660D4A5FBB4113C8F12FB5855",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 2,
-      "name": "",
-      "origin": "https://d169bbxks24g2u.cloudfront.net",
-      "uniqueId": "-1820680029643358196.6328091471076087595"
-   }
-}
-[1674061907.744][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "62BEEA0660D4A5FBB4113C8F12FB5855"
-}
-[1674061907.745][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "744925B1A5755C938AFB57FC90D13167",
-   "parentFrameId": "58533230988D220D0A367E58FA940287",
-   "stack": {
-      "callFrames": [ {
-         "columnNumber": 44442,
-         "functionName": "LDkE.a.createIFrame",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 44189,
-         "functionName": "LDkE.a.tryCreateIFrames",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 45157,
-         "functionName": "a",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 46622,
-         "functionName": "O",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 50276,
-         "functionName": "LDkE",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 134513,
-         "functionName": "oe+7",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 5089,
-         "functionName": "0",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 2096,
-         "functionName": "",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 2105,
-         "functionName": "",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      } ]
-   }
-}
-[1674061907.745][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "744925B1A5755C938AFB57FC90D13167"
-}
-[1674061907.746][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frame": {
-      "adFrameStatus": {
-         "adFrameType": "none",
-         "explanations": [  ]
-      },
-      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
-      "domainAndRegistry": "",
-      "gatedAPIFeatures": [  ],
-      "id": "744925B1A5755C938AFB57FC90D13167",
-      "loaderId": "223963D5CC04098061580FCA497C47AA",
-      "mimeType": "text/html",
-      "name": "__JSBridgeIframe_SetResult_1.0__",
-      "parentId": "58533230988D220D0A367E58FA940287",
-      "secureContextType": "Secure",
-      "securityOrigin": "://",
-      "url": "about:blank"
-   },
-   "type": "Navigation"
-}
-[1674061907.746][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "context": {
-      "auxData": {
-         "frameId": "744925B1A5755C938AFB57FC90D13167",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 3,
-      "name": "",
-      "origin": "https://d169bbxks24g2u.cloudfront.net",
-      "uniqueId": "3385061145541393261.5902296879839477080"
-   }
-}
-[1674061907.746][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "744925B1A5755C938AFB57FC90D13167"
-}
-[1674061907.747][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "0C7793D44EBE18A8071EA4B392CB363B",
-   "parentFrameId": "58533230988D220D0A367E58FA940287",
-   "stack": {
-      "callFrames": [ {
-         "columnNumber": 44442,
-         "functionName": "LDkE.a.createIFrame",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 44120,
-         "functionName": "LDkE.a.tryCreateIFrames",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 45157,
-         "functionName": "a",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 48656,
-         "functionName": "E",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 50270,
-         "functionName": "LDkE",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 134513,
-         "functionName": "oe+7",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 5089,
-         "functionName": "0",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 2096,
-         "functionName": "",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 2105,
-         "functionName": "",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      } ]
-   }
-}
-[1674061907.747][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "0C7793D44EBE18A8071EA4B392CB363B"
-}
-[1674061907.750][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frame": {
-      "adFrameStatus": {
-         "adFrameType": "none",
-         "explanations": [  ]
-      },
-      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
-      "domainAndRegistry": "",
-      "gatedAPIFeatures": [  ],
-      "id": "0C7793D44EBE18A8071EA4B392CB363B",
-      "loaderId": "D4AD259B85367BD1BCC5AC4C6FD99A9A",
-      "mimeType": "text/html",
-      "name": "__JSBridgeIframe__",
-      "parentId": "58533230988D220D0A367E58FA940287",
-      "secureContextType": "Secure",
-      "securityOrigin": "://",
-      "url": "about:blank"
-   },
-   "type": "Navigation"
-}
-[1674061907.750][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "context": {
-      "auxData": {
-         "frameId": "0C7793D44EBE18A8071EA4B392CB363B",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 4,
-      "name": "",
-      "origin": "https://d169bbxks24g2u.cloudfront.net",
-      "uniqueId": "-8190579452112895474.-6627696181010996515"
-   }
-}
-[1674061907.750][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "0C7793D44EBE18A8071EA4B392CB363B"
-}
-[1674061907.750][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "59CF3F8E8C0DB5B2024DB034B70A6C47",
-   "parentFrameId": "58533230988D220D0A367E58FA940287",
-   "stack": {
-      "callFrames": [ {
-         "columnNumber": 44442,
-         "functionName": "LDkE.a.createIFrame",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 44189,
-         "functionName": "LDkE.a.tryCreateIFrames",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 45157,
-         "functionName": "a",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 48656,
-         "functionName": "E",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 50270,
-         "functionName": "LDkE",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 134513,
-         "functionName": "oe+7",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 5089,
-         "functionName": "0",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 360,
-         "functionName": "s",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 2096,
-         "functionName": "",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      }, {
-         "columnNumber": 2105,
-         "functionName": "",
-         "lineNumber": 3,
-         "scriptId": "80",
-         "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWE2YWY2YTgzMA.js"
-      } ]
-   }
-}
-[1674061907.751][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "59CF3F8E8C0DB5B2024DB034B70A6C47"
-}
-[1674061907.753][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frame": {
-      "adFrameStatus": {
-         "adFrameType": "none",
-         "explanations": [  ]
-      },
-      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
-      "domainAndRegistry": "",
-      "gatedAPIFeatures": [  ],
-      "id": "59CF3F8E8C0DB5B2024DB034B70A6C47",
-      "loaderId": "9A6A4ED3F1B5CC14680DAEAA1D6D90FA",
-      "mimeType": "text/html",
-      "name": "__JSBridgeIframe_SetResult__",
-      "parentId": "58533230988D220D0A367E58FA940287",
-      "secureContextType": "Secure",
-      "securityOrigin": "://",
-      "url": "about:blank"
-   },
-   "type": "Navigation"
-}
-[1674061907.753][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "context": {
-      "auxData": {
-         "frameId": "59CF3F8E8C0DB5B2024DB034B70A6C47",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 5,
-      "name": "",
-      "origin": "https://d169bbxks24g2u.cloudfront.net",
-      "uniqueId": "-8906581946076023393.2366686692195069631"
-   }
-}
-[1674061907.753][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=126A21CD0C7DF7DE9B5A05983503C04E) 126A21CD0C7DF7DE9B5A05983503C04E {
-   "frameId": "59CF3F8E8C0DB5B2024DB034B70A6C47"
-}
-[97026:259:0118/091147.782977:INFO:CONSOLE(1)] "Marty Client: API Call Completed context = emergencyBanner time = 43 ms statusCode = 200 url = "https://www.zappos.com/ebanner/issue_banner.json"", source: https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js (1)
-[1674061907.783][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled (session_id=82954D239D78281EF5B86E34E30C4419) 088C7C32C083EE08672B1D0CEF337BD8 {
-   "args": [ {
-      "type": "string",
-      "value": "Marty Client:"
-   }, {
-      "type": "string",
-      "value": "API Call Completed context = emergencyBanner time = 43 ms statusCode = 200 url = \"https://www.zappos.com/ebanner/issue_banner.json\""
-   } ],
-   "executionContextId": 1,
-   "stackTrace": {
-      "callFrames": [ {
-         "columnNumber": 1051639,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1051742,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1021828,
-         "functionName": "debug",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1053963,
-         "functionName": "d",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      }, {
-         "columnNumber": 1054251,
-         "functionName": "",
-         "lineNumber": 0,
-         "scriptId": "23",
-         "url": "https://www.zappos.com/marty-assets/marty-zappos.app.5680a871a14a03f05c3c.js"
-      } ]
-   },
-   "timestamp": 1.67406190778281e+12,
-   "type": "debug"
-}
-[1674061908.286][INFO]: [d50474e8c0a8f6d786b8c3895b77f83f] COMMAND Quit {
-}
-[1674061908.387][INFO]: [d50474e8c0a8f6d786b8c3895b77f83f] RESPONSE Quit
-[1674061908.387][DEBUG]: Log type 'driver' lost 1 entries on destruction
-[1674061908.387][DEBUG]: Log type 'browser' lost 3 entries on destruction
+[1674062825.316][INFO]: Done waiting for pending navigations. Status: ok
+[1674062825.316][INFO]: [93ecf9c561f07b5e130a0fabdf21e63a] RESPONSE Navigate
+[1674062827.792][INFO]: [93ecf9c561f07b5e130a0fabdf21e63a] COMMAND Quit {
+}
+[1674062827.842][INFO]: [93ecf9c561f07b5e130a0fabdf21e63a] RESPONSE Quit
+[1674062827.842][DEBUG]: Log type 'driver' lost 1 entries on destruction
+[1674062827.842][DEBUG]: Log type 'browser' lost 0 entries on destruction
