@@ -3,3 +3,6 @@ logs
 
 # Dependency directory
 node_modules
+
+# Test Output
+tests_output
