@@ -1,4 +1,4 @@
-const deepEqual = require('deep-equal')
+const deepEqual = require('deep-equal');
 /**
  * Wait for API to come back with expected properties in the response
  * Will retry an API, and has a timeout between each call
@@ -10,19 +10,20 @@ const deepEqual = require('deep-equal')
 module.exports = class WaitForExpectedResponse {
   async command(apiMethod, expectedResponse, retries = 3, timeout = 1500) {
     let response;
+    let data;
     let doesContainExpected;
     for (; retries > 0; retries--) {
       console.log('for loop', new Date());
       try {
         response = await apiMethod();
         console.log('completed apiMethod()', new Date());
+        data = await response.json();
       } catch (error) {
         await this.api.assert.ok(false, error);
       }
-      const data = response.json();
       // look through all keys in expectedResponse, and check the API response to see if they deepEqual
       doesContainExpected = Object.keys(expectedResponse).every(key => deepEqual(expectedResponse[key], data[key]));
-      console.log(doesContainExpected);
+      console.log(`Contains Expected Response? ${doesContainExpected}`);
       if (doesContainExpected) {
         return;
       }
@@ -30,7 +31,7 @@ module.exports = class WaitForExpectedResponse {
         await this.api.pause(timeout);
         console.log('about to repeat loop', new Date());
     }
-    await this.api.assert.ok(doesContainExpected, `Exceeded max number of retries. API Response ${JSON.stringify(response)} does not contain Expected Response ${JSON.stringify(expectedResponse)}`);
+    await this.api.assert.ok(doesContainExpected, `Exceeded max number of retries. API Response ${JSON.stringify(data)} does not contain Expected Response ${JSON.stringify(expectedResponse)}`);
   }
 };
 
