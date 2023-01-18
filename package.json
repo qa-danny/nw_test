@@ -20,6 +20,9 @@
   "devDependencies": {
     "chromedriver": "^108.0.0",
     "nightwatch": "^2.6.10",
-    "request": "^2.88.2"
+    "node-fetch": "^2.6.8"
+  },
+  "dependencies": {
+    "deep-equal": "^2.2.0"
   }
 }

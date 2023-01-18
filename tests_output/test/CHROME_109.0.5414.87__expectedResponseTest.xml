@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test.expectedResponseTest"
+    errors="0" failures="1" hostname="" id="" package="expectedResponseTest" skipped="0"
+    tests="1" time="2.593" timestamp="">
+  
+    <testcase name="API Test - GET" classname="test.expectedResponseTest" time="2.593" assertions="2">
+
+      <failure message="Failed [ok]: (Exceeded max number of retries. API Response {&#34;size&#34;:0,&#34;timeout&#34;:0} does not contain Expected Response {&#34;dogBreeds&#34;:2}) - expected &#34;true&#34; but got: &#34;false&#34; (2ms)">    at CommandInstance.command (/Users/dschaich/Documents/nw_sample/e2e/custom-commands/waitForExpectedResponse.js:33:27)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

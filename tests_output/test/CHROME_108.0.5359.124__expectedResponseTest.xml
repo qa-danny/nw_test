@@ -5,15 +5,14 @@
 
   <testsuite name="test.expectedResponseTest"
     errors="1" failures="0" hostname="" id="" package="expectedResponseTest" skipped="0"
-    tests="1" time="0.07200" timestamp="">
+    tests="1" time="0.2950" timestamp="">
   
-    <testcase name="API Test - GET" classname="test.expectedResponseTest" time="0.07200" assertions="1">
+    <testcase name="API Test - GET" classname="test.expectedResponseTest" time="0.2950" assertions="1">
 
     
-    <error message="Unknown api method &#34;includes&#34;." type="error"><![CDATA[
-    Error: Unknown api method &#34;includes&#34;.
-    at Proxy.&lt;anonymous&gt; (/Users/dschaich/Documents/nw_sample/node_modules/nightwatch/lib/api/index.js:154:19)
-    at Object.API Test - GET (/Users/dschaich/Documents/nw_sample/e2e/test/expectedResponseTest.js:13:26)
+    <error message="newData is not defined" type="error"><![CDATA[
+    ReferenceError: newData is not defined
+    at Object.API Test - GET (/Users/dschaich/Documents/nw_sample/e2e/test/expectedResponseTest.js:15:35)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
     ]]></error>
     
@@ -22,18 +21,22 @@
 
   
     <system-err>
-       Error
-   Unknown api method &#34;includes&#34;.
+       ✖ ReferenceError
+   newData is not defined
 
     Error location:
     /Users/dschaich/Documents/nw_sample/e2e/test/expectedResponseTest.js:
     ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     11 |     console.log(JSON.stringify(response));
-     12 |     const newData = JSON.stringify(response);
-     13 |     await browser.assert.includes(newData, &#39;auth&#39;); 
-     14 |   },
-     15 |   after: async function(browser) {
+     13 |     const data = await response.json();
+     14 |     console.log(data);
+     15 |     await browser.assert.includes(newData, &#39;auth&#39;); 
+     16 |   },
+     17 |   after: async function(browser) {
     ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at Object.API Test - GET (/Users/dschaich/Documents/nw_sample/e2e/test/expectedResponseTest.js:15:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
 
     </system-err>
   
